@@ -4,25 +4,25 @@
 
 <!-- Scrolling Text Animation outside the container -->
 <div class="scrolling-text-container" style="width: 100%; overflow: hidden; position: absolute; top: 50px; z-index: 10;">
-    <div class="scrolling-text" style="position: absolute; font-size: 80px; color: #FF5722; font-weight: bold; white-space: nowrap; animation: scroll-text 15s linear infinite;">
+    <div class="scrolling-text" style="position: absolute; font-size: 80px; color: rgba(255, 87, 34, 0.8); font-weight: bold; white-space: nowrap; animation: scroll-text 15s linear infinite;">
         Direk Fuels
     </div>
 </div>
 
 <!-- Display the time and date outside the container -->
-<div id="time-container" style="text-align: center; margin-bottom: 30px; z-index: 20;">
-   <p id="date" style="color: #ffffff; font-size: 36px; font-weight: 600; margin: 0;"></p>
-   <p id="time" style="color: #ffeb3b; font-size: 60px; font-weight: bold; margin: 5px 0;"></p>
+<div id="time-container" style="text-align: center; margin-top: 150px; z-index: 20;">
+   <p id="date" style="color:rgb(14, 11, 8); font-size: 36px; font-weight: 600; margin: 0;"></p>
+   <p id="time" style="color:rgb(147, 15, 0); font-size: 90px; font-weight: bold; margin: 5px 0;"></p>
 </div>
 
 <!-- Login Box Container -->
-<div class="login-box" style="background: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 8px; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); width: 90%; max-width: 400px;">
+<div class="login-box" style="background: rgba(163, 9, 9, 0.82); padding: 20px; border-radius: 8px; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); width: 90%; max-width: 400px;">
    <div class="login-logo" style="text-align: center; margin-bottom: 15px;">
-      <h1 style="color: #333; font-size: 22px; font-weight: bold; margin: 0;">Employee Attendance</h1>
+      <h1 style="color: #e7f9ee; font-size: 25px; font-weight: bold; margin: 0;">Employee Attendance</h1>
    </div>
 
    <div class="login-box-body">
-      <h4 class="login-box-msg" style="color: #555; font-size: 16px; margin-bottom: 15px; text-align: center;">Enter Employee ID</h4>
+      <h4 class="login-box-msg" style="color: #555; font-size: 20px; margin-bottom:15px; text-align: center;">Enter Employee ID</h4>
 
       <form id="attendance">
           <div class="form-group">
@@ -99,6 +99,7 @@ body {
     position: relative;
     max-width: 90%;
     z-index: 10;  /* Ensure the date/time are above other elements */
+    margin-top: 150px;  /* Moves the date/time lower */
 }
 
 form .form-control {
@@ -136,7 +137,7 @@ button:hover {
 .scrolling-text {
     position: absolute;
     font-size: 80px; /* Large font */
-    color: #FF5722;  /* Orange color */
+    color: rgba(255, 87, 34, 0.8);  /* Orange with 80% opacity */
     font-weight: bold;
     white-space: nowrap;
     animation: scroll-text 15s linear infinite; /* Slower animation for smoother effect */
@@ -145,4 +146,3 @@ button:hover {
 
 </body>
 </html>
-

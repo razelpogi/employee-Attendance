@@ -661,7 +661,7 @@ a:focus {
   margin-left: 50px;
 }
 .sidebar-expanded-on-hover .main-sidebar {
-  box-shadow: 3px 0 8px rgba(0, 0, 0, 0.125);
+  box-shadow: 3px 0 8px rgba(4, 8, 2, 0.801);
 }
 .sidebar-menu,
 .main-sidebar .user-panel,

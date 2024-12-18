@@ -5,14 +5,14 @@ if(isset($_SESSION['admin'])){
 }
 ?>
 <?php include 'includes/header.php'; ?>
-<body class="hold-transition login-page" style="background: linear-gradient(to right,rgba(131, 16, 6, 0.87),rgba(5, 3, 56, 0.88)); height: 100vh; font-family: 'Poppins', sans-serif; margin: 0; display: flex; justify-content: center; align-items: center;">
+<body class="hold-transition login-page" style="background: linear-gradient(to right,rgba(212, 104, 9, 0.87),rgba(5, 3, 56, 0.88)); height: 100vh; font-family: 'Poppins', sans-serif; margin: 0; display: flex; justify-content: center; align-items: center;">
 
 <!-- Login Box -->
-<div class="login-box" style="background-color: rgba(150, 10, 10, 0.64); padding: 30px; border-radius: 10px; box-shadow: 0 15px 30px rgba(5, 17, 98, 0.84); width: 100%; max-width: 400px;">
+<div class="login-box" style="background-color: rgba(211, 140, 78, 0.64); padding: 30px; border-radius: 10px; box-shadow: 0 15px 30px rgba(5, 17, 98, 0.84); width: 100%; max-width: 400px;">
 
    <!-- Logo and Heading -->
    <div class="login-logo" style="text-align: center; margin-bottom: 20px;">
-      <h2 style="color:rgba(37, 120, 208, 0.94); font-weight: 700; font-size: 40px;">Admin Login</h2>
+      <h2 style="color: rgba(231, 226, 226, 0.83); font-weight: 700; font-size: 40px;">Admin Login</h2>
    </div>
 
    <!-- Login Form -->
